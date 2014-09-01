@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/stylesheets/default.css">
+		
+	</head>
+	<body ng-app="fmApp">
+
+		<section class="wrapper">
+			<div class="row">
+				<sidebar></sidebar>
+
+				<div class="main col-md-9" role="main">
+					<ng-include src="'views/includes/header.html'"></ng-include>
+
+					<div ng-view class="content"></div>
+				</div>
+			</div>
+
+		</section>
+
+
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-route/angular-route.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+		<script src="scripts/app.js"></script>
+
+		<script src="scripts/services/fm-data.js"></script>
+
+		<script src="scripts/directives/breadcrumbs.js"></script>
+		<script src="scripts/directives/sidebar.js"></script>
+
+		<script src="scripts/controllers/static.js"></script>
+		<script src="scripts/controllers/colors.js"></script>
+		<script src="scripts/controllers/typography.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,59 @@
+<breadcrumbs parent="breadcrumbs.colors" page="'solid'"></breadcrumbs>
+<div class="row">
+	<div class="col-md-12">
+		
+		<h4 class="space3">Primary Accent Colors</h4>
+		<div class="row">
+			<p class="space3 col-md-8">
+				These colors help build our visual foundation. White, FM Gray 1 and Gray 2 are colors we use to fill large color fields. The other colors, like FM Magenta, Black and Gray 3 help provide important accents on top. Be careful not to overuse FM Magenta. We generally don’t fill large color blocks with magenta as it can be overpowering.
+			</p>
+		</div>
+
+		<ul class="list-unstyled">
+			<li ng-repeat="item in colors.solid.primary" class="photo-text color-box-text space5">
+				<div class="color-box mr bg {{item.class}}"></div>
+				<div class="text-content">
+				<h5 class="text-upper">{{item.title}}</h5>
+				<strong>{{item.description}}</strong><br>
+				HTML: <span class="text-upper">{{item.html}}</span>
+				<div class="space1"></div>
+				<strong>R</strong> {{item.R}}  
+				<strong>G</strong> {{item.G}}
+				<strong>B</strong> {{item.B}} <br>
+				<strong>C</strong> {{item.C}}  
+				<strong>M</strong> {{item.M}}
+				<strong>Y</strong> {{item.Y}}
+				<strong>K</strong> {{item.K}}
+				</div>
+			</li>
+		</ul>
+
+		<div class="space5"></div>
+		
+		<h4 class="space3">Secondary Accent Colors</h4>
+		<div class="row">
+			<p class="space3 col-md-8">
+				 Sprinkle these colors into your Favorite Medium design if you need to add a little extra something to the design.
+			</p>
+		</div>
+
+		<ul class="list-unstyled">
+			<li ng-repeat="item in colors.solid.secondary" class="photo-text color-box-text space5">
+				<div class="color-box mr bg {{item.class}}"></div>
+				<div class="text-content">
+				<h5 class="text-upper">{{item.title}}</h5>
+				<strong>{{item.description}}</strong><br>
+				HTML: <span class="text-upper">{{item.html}}</span>
+				<div class="space1"></div>
+				<strong>R</strong> {{item.R}}  
+				<strong>G</strong> {{item.G}}
+				<strong>B</strong> {{item.B}} <br>
+				<strong>C</strong> {{item.C}}  
+				<strong>M</strong> {{item.M}}
+				<strong>Y</strong> {{item.Y}}
+				<strong>K</strong> {{item.K}}
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

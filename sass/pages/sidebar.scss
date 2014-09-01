@@ -1,0 +1,34 @@
+.sidebar{
+	@extend .pluto-condensed;
+	font-size: 16px;
+	font-weight: 400;
+	padding :50px;
+	padding-top: 100px;
+	padding-right: 20px;
+
+	.logo{
+		margin-bottom: 125px;
+	}
+
+	ul{
+		list-style: none;		
+		li{
+			margin-top: 12px;			
+		}
+	}
+	& > ul {
+		margin: 0;
+		padding: 0;
+		li{
+		}
+		a{
+			color: #000;
+		}
+		li > ul{
+			text-transform: none;
+		}
+	}
+	.active{
+		@extend .fm-magenta;
+	}
+}

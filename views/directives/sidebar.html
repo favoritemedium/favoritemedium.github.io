@@ -1,0 +1,16 @@
+<div class="sidebar col-md-3">
+	<div class="logo"></div>
+
+	<ul class="text-upper">
+		<li ng-repeat="item in navigation">
+			<a href="#{{item.path}}" ng-class="{active: isActive(item.path) || isActiveSub(item.submenu) }">{{item.title}}</a>
+			<ul ng-if="item.submenu" ng-show="isActiveSub(item.submenu)">
+				<li ng-repeat="item in item.submenu">
+
+					<a href="#{{item.path}}" ng-class="{active: isActive(item.path)}">{{item.title}}</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+</div>

@@ -1,0 +1,639 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
+/* line 1, ../../sass/pages/sidebar.scss */
+.sidebar {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 50px;
+  padding-top: 100px;
+  padding-right: 20px;
+}
+/* line 9, ../../sass/pages/sidebar.scss */
+.sidebar .logo {
+  margin-bottom: 125px;
+}
+/* line 13, ../../sass/pages/sidebar.scss */
+.sidebar ul {
+  list-style: none;
+}
+/* line 15, ../../sass/pages/sidebar.scss */
+.sidebar ul li {
+  margin-top: 12px;
+}
+/* line 19, ../../sass/pages/sidebar.scss */
+.sidebar > ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 24, ../../sass/pages/sidebar.scss */
+.sidebar > ul a {
+  color: #000;
+}
+/* line 27, ../../sass/pages/sidebar.scss */
+.sidebar > ul li > ul {
+  text-transform: none;
+}
+
+/* line 2, ../../sass/components/helper.scss */
+.text-upper {
+  text-transform: uppercase;
+}
+
+/* line 6, ../../sass/components/helper.scss */
+.space1 {
+  margin-bottom: 10px !important;
+}
+
+/* line 7, ../../sass/components/helper.scss */
+.space2 {
+  margin-bottom: 20px !important;
+}
+
+/* line 8, ../../sass/components/helper.scss */
+.space3 {
+  margin-bottom: 30px !important;
+}
+
+/* line 9, ../../sass/components/helper.scss */
+.space4 {
+  margin-bottom: 40px !important;
+}
+
+/* line 10, ../../sass/components/helper.scss */
+.space5 {
+  margin-bottom: 50px !important;
+}
+
+/* line 11, ../../sass/components/helper.scss */
+.space6 {
+  margin-bottom: 60px !important;
+}
+
+/* line 12, ../../sass/components/helper.scss */
+.space7 {
+  margin-bottom: 70px !important;
+}
+
+/* line 13, ../../sass/components/helper.scss */
+.space8 {
+  margin-bottom: 80px !important;
+}
+
+/* line 14, ../../sass/components/helper.scss */
+.space9 {
+  margin-bottom: 90px !important;
+}
+
+/* line 15, ../../sass/components/helper.scss */
+.space10 {
+  margin-bottom: 100px !important;
+}
+
+/* line 17, ../../sass/components/helper.scss */
+.ml-50 {
+  margin-left: 50px;
+}
+
+/* line 20, ../../sass/components/helper.scss */
+.mr {
+  margin-right: 15px;
+}
+
+/* line 1, ../../sass/components/icons.scss */
+.logo {
+  background-image: url(/assets/images/logos/logo-short-magenta.svg);
+  background-size: 100%;
+  width: 110px;
+  height: 102px;
+}
+/* line 7, ../../sass/components/icons.scss */
+.logo.full.black {
+  background-image: url(/assets/images/logos/logo-full-black.svg);
+}
+/* line 8, ../../sass/components/icons.scss */
+.logo.full.magenta {
+  background-image: url(/assets/images/logos/logo-full-magenta.svg);
+}
+/* line 9, ../../sass/components/icons.scss */
+.logo.full.white1 {
+  background-image: url(/assets/images/logos/logo-full-white1.svg);
+}
+/* line 10, ../../sass/components/icons.scss */
+.logo.full.white2 {
+  background-image: url(/assets/images/logos/logo-full-white2.svg);
+}
+/* line 13, ../../sass/components/icons.scss */
+.logo.short.black {
+  background-image: url(/assets/images/logos/logo-short-black.svg);
+}
+/* line 14, ../../sass/components/icons.scss */
+.logo.short.magenta {
+  background-image: url(/assets/images/logos/logo-short-magenta.svg);
+}
+/* line 15, ../../sass/components/icons.scss */
+.logo.short.white1 {
+  background-image: url(/assets/images/logos/logo-short-white1.svg);
+}
+/* line 16, ../../sass/components/icons.scss */
+.logo.short.white2 {
+  background-image: url(/assets/images/logos/logo-short-white2.svg);
+}
+
+/* line 1, ../../sass/components/colors.scss */
+.bg {
+  color: inherit;
+}
+
+/* line 5, ../../sass/components/colors.scss */
+.fm-magenta, .sidebar .active {
+  color: #D0006F;
+}
+/* line 7, ../../sass/components/colors.scss */
+.fm-magenta.bg, .sidebar .bg.active {
+  background-color: #D0006F;
+}
+
+/* line 12, ../../sass/components/colors.scss */
+.fm-black, ul.list-logo li {
+  color: #212721;
+}
+/* line 14, ../../sass/components/colors.scss */
+.fm-black.bg, ul.list-logo li.bg {
+  background-color: #212721;
+}
+
+/* line 19, ../../sass/components/colors.scss */
+.fm-gray1 {
+  color: #f5f6f6;
+}
+/* line 21, ../../sass/components/colors.scss */
+.fm-gray1.bg, [role="main"] {
+  background-color: #f5f6f6;
+}
+
+/* line 26, ../../sass/components/colors.scss */
+.fm-gray2 {
+  color: #eae6e6;
+}
+/* line 28, ../../sass/components/colors.scss */
+.fm-gray2.bg, .wrapper {
+  background-color: #eae6e6;
+}
+
+/* line 33, ../../sass/components/colors.scss */
+.fm-gray3 {
+  color: #8a8a8a;
+}
+/* line 35, ../../sass/components/colors.scss */
+.fm-gray3.bg {
+  background-color: #8a8a8a;
+}
+
+/* line 40, ../../sass/components/colors.scss */
+.fm-white {
+  color: #FFF;
+}
+/* line 42, ../../sass/components/colors.scss */
+.fm-white.bg {
+  background-color: #FFF;
+}
+
+/* line 47, ../../sass/components/colors.scss */
+.fm-burnt {
+  color: #970e48;
+}
+/* line 49, ../../sass/components/colors.scss */
+.fm-burnt.bg {
+  background-color: #970e48;
+}
+
+/* line 54, ../../sass/components/colors.scss */
+.fm-purple1 {
+  color: #82459b;
+}
+/* line 56, ../../sass/components/colors.scss */
+.fm-purple1.bg {
+  background-color: #82459b;
+}
+
+/* line 61, ../../sass/components/colors.scss */
+.fm-purple2 {
+  color: #503b80;
+}
+/* line 63, ../../sass/components/colors.scss */
+.fm-purple2.bg {
+  background-color: #503b80;
+}
+
+/* line 68, ../../sass/components/colors.scss */
+.fm-blue1 {
+  color: #109dc0;
+}
+/* line 70, ../../sass/components/colors.scss */
+.fm-blue1.bg {
+  background-color: #109dc0;
+}
+
+/* line 75, ../../sass/components/colors.scss */
+.fm-blue2 {
+  color: #00567b;
+}
+/* line 77, ../../sass/components/colors.scss */
+.fm-blue2.bg {
+  background-color: #00567b;
+}
+
+/* line 83, ../../sass/components/colors.scss */
+.fm-gradient1 {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec0088), color-stop(100%, #9a0d4b));
+  background-image: -webkit-linear-gradient(#ec0088, #9a0d4b);
+  background-image: -moz-linear-gradient(#ec0088, #9a0d4b);
+  background-image: -o-linear-gradient(#ec0088, #9a0d4b);
+  background-image: linear-gradient(#ec0088, #9a0d4b);
+}
+
+/* line 86, ../../sass/components/colors.scss */
+.fm-gradient2 {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #109dbf), color-stop(100%, #01587b));
+  background-image: -webkit-linear-gradient(#109dbf, #01587b);
+  background-image: -moz-linear-gradient(#109dbf, #01587b);
+  background-image: -o-linear-gradient(#109dbf, #01587b);
+  background-image: linear-gradient(#109dbf, #01587b);
+}
+
+/* line 89, ../../sass/components/colors.scss */
+.fm-gradient3 {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7f4499), color-stop(100%, #533c82));
+  background-image: -webkit-linear-gradient(#7f4499, #533c82);
+  background-image: -moz-linear-gradient(#7f4499, #533c82);
+  background-image: -o-linear-gradient(#7f4499, #533c82);
+  background-image: linear-gradient(#7f4499, #533c82);
+}
+
+/* Thin */
+@font-face {
+  font-weight: 100;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoThin-webfont.eot");
+  src: url("/assets/webfonts/PlutoThin-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoThin-webfont.woff") format("woff"), url("/assets/webfonts/PlutoThin-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoThin-webfont.svg#PlutoThinRegular") format("svg");
+}
+
+/* Extra Light */
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoExtraLight-webfont.eot");
+  src: url("/assets/webfonts/PlutoExtraLight-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoExtraLight-webfont.woff") format("woff"), url("/assets/webfonts/PlutoExtraLight-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoExtraLight-webfont.svg#PlutoExtraLightRegular") format("svg");
+}
+
+/* Light */
+@font-face {
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoLight-webfont.eot");
+  src: url("/assets/webfonts/PlutoLight-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoLight-webfont.woff") format("woff"), url("/assets/webfonts/PlutoLight-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoLight-webfont.svg#PlutoLightRegular") format("svg");
+}
+
+/* Regular */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoRegular-webfont.eot");
+  src: url("/assets/webfonts/PlutoRegular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoRegular-webfont.woff") format("woff"), url("/assets/webfonts/PlutoRegular-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoRegular-webfont.svg#PlutoRegularRegular") format("svg");
+}
+
+/* Medium */
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoMedium-webfont.eot");
+  src: url("/assets/webfonts/PlutoMedium-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoMedium-webfont.woff") format("woff"), url("/assets/webfonts/PlutoMedium-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoMedium-webfont.svg#PlutoMediumRegular") format("svg");
+}
+
+/* Bold */
+@font-face {
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoBold-webfont.eot");
+  src: url("/assets/webfonts/PlutoBold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoBold-webfont.woff") format("woff"), url("/assets/webfonts/PlutoBold-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoBold-webfont.svg#PlutoBoldRegular") format("svg");
+}
+
+/* Heavy */
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoHeavy-webfont.eot");
+  src: url("/assets/webfonts/PlutoHeavy-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoHeavy-webfont.woff") format("woff"), url("/assets/webfonts/PlutoHeavy-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoHeavy-webfont.svg#PlutoHeavyRegular") format("svg");
+}
+
+/* Black */
+@font-face {
+  font-weight: 800;
+  font-style: normal;
+  font-family: 'Pluto';
+  src: url("/assets/webfonts/PlutoBlack-webfont.eot");
+  src: url("/assets/webfonts/PlutoBlack-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoBlack-webfont.woff") format("woff"), url("/assets/webfonts/PlutoBlack-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoBlack-webfont.svg#PlutoBlackRegular") format("svg");
+}
+
+/* line 101, ../../sass/webfonts/pluto.scss */
+.pluto {
+  font-family: 'Pluto';
+}
+/* line 103, ../../sass/webfonts/pluto.scss */
+.pluto.thin {
+  font-weight: 100;
+}
+/* line 106, ../../sass/webfonts/pluto.scss */
+.pluto.extra-light {
+  font-weight: 200;
+}
+/* line 109, ../../sass/webfonts/pluto.scss */
+.pluto.light {
+  font-weight: 300;
+}
+/* line 112, ../../sass/webfonts/pluto.scss */
+.pluto.medium {
+  font-weight: 500;
+}
+/* line 115, ../../sass/webfonts/pluto.scss */
+.pluto.bold {
+  font-weight: 600;
+}
+/* line 118, ../../sass/webfonts/pluto.scss */
+.pluto.heavy {
+  font-weight: 700;
+}
+/* line 121, ../../sass/webfonts/pluto.scss */
+.pluto.black {
+  font-weight: 800;
+}
+
+/* Thin */
+@font-face {
+  font-weight: 100;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondThin-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondThin-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondThin-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondThin-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondThin-webfont.svg#PlutoThinRegular") format("svg");
+}
+
+/* Extra Light */
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondExtraLight-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondExtraLight-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondExtraLight-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondExtraLight-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondExtraLight-webfont.svg#PlutoExtraLightRegular") format("svg");
+}
+
+/* Light */
+@font-face {
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondLight-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondLight-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondLight-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondLight-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondLight-webfont.svg#PlutoLightRegular") format("svg");
+}
+
+/* Regular */
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondRegular-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondRegular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondRegular-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondRegular-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondRegular-webfont.svg#PlutoRegularRegular") format("svg");
+}
+
+/* Medium */
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondMedium-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondMedium-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondMedium-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondMedium-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondMedium-webfont.svg#PlutoMediumRegular") format("svg");
+}
+
+/* Bold */
+@font-face {
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondBold-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondBold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondBold-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondBold-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondBold-webfont.svg#PlutoBoldRegular") format("svg");
+}
+
+/* Heavy */
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondHeavy-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondHeavy-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondHeavy-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondHeavy-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondHeavy-webfont.svg#PlutoHeavyRegular") format("svg");
+}
+
+/* Black */
+@font-face {
+  font-weight: 800;
+  font-style: normal;
+  font-family: 'Pluto Condensed';
+  src: url("/assets/webfonts/PlutoCondBlack-webfont.eot");
+  src: url("/assets/webfonts/PlutoCondBlack-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/webfonts/PlutoCondBlack-webfont.woff") format("woff"), url("/assets/webfonts/PlutoCondBlack-webfont.ttf") format("truetype"), url("/assets/webfonts/PlutoCondBlack-webfont.svg#PlutoBlackRegular") format("svg");
+}
+
+/* line 101, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed, .sidebar, h1, h2, h3, h4, h5 {
+  font-family: 'Pluto Condensed';
+}
+/* line 103, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed.thin, .thin.sidebar, h1.thin, h2.thin, h3.thin, h4.thin, h5.thin {
+  font-weight: 100;
+}
+/* line 106, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed.extra-light, .extra-light.sidebar, h1.extra-light, h2.extra-light, h3.extra-light, h4.extra-light, h5.extra-light {
+  font-weight: 200;
+}
+/* line 109, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed.light, .light.sidebar, h1.light, h2.light, h3.light, h4.light, h5.light {
+  font-weight: 300;
+}
+/* line 112, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed.medium, .medium.sidebar, h1.medium, h2.medium, h3.medium, h4.medium, h5.medium {
+  font-weight: 500;
+}
+/* line 115, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed.bold, .bold.sidebar, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold {
+  font-weight: 600;
+}
+/* line 118, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed.heavy, .heavy.sidebar, h1.heavy, h2.heavy, h3.heavy, h4.heavy, h5.heavy {
+  font-weight: 700;
+}
+/* line 121, ../../sass/webfonts/pluto-condensed.scss */
+.pluto-condensed.black, .black.sidebar, h1.black, h2.black, h3.black, h4.black, h5.black {
+  font-weight: 800;
+}
+
+/* line 3, ../../sass/webfonts/open-sans.scss */
+.open-sans, .breadcrumbs .current {
+  font-family: 'Open Sans';
+}
+/* line 5, ../../sass/webfonts/open-sans.scss */
+.open-sans.light, .breadcrumbs .light.current {
+  font-weight: 300;
+}
+/* line 8, ../../sass/webfonts/open-sans.scss */
+.open-sans.semi-bold, .breadcrumbs .semi-bold.current {
+  font-weight: 600;
+}
+/* line 11, ../../sass/webfonts/open-sans.scss */
+.open-sans.bold, .breadcrumbs .bold.current {
+  font-weight: 700;
+}
+/* line 14, ../../sass/webfonts/open-sans.scss */
+.open-sans.extra-bold, .breadcrumbs .extra-bold.current {
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'FM-Analog-Clock';
+  src: url("webfonts/fm-analog-clock-h-webfont.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 8, ../../sass/components/typography.scss */
+.open-sans, .breadcrumbs .current {
+  font-family: 'Open Sans';
+}
+
+/* line 12, ../../sass/components/typography.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  line-height: 1em;
+}
+
+/* line 18, ../../sass/components/typography.scss */
+h1 {
+  font-size: 60px;
+}
+
+/* line 19, ../../sass/components/typography.scss */
+h2 {
+  font-size: 48px;
+}
+
+/* line 20, ../../sass/components/typography.scss */
+h3 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+/* line 21, ../../sass/components/typography.scss */
+h4 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* line 22, ../../sass/components/typography.scss */
+h5 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* line 24, ../../sass/components/typography.scss */
+.font-10 {
+  font-size: 10px;
+}
+
+/* line 27, ../../sass/components/typography.scss */
+.font-12 {
+  font-size: 12px;
+}
+
+/* line 30, ../../sass/components/typography.scss */
+.font-14 {
+  font-size: 14px;
+}
+
+/* line 33, ../../sass/components/typography.scss */
+.font-16 {
+  font-size: 16px;
+}
+
+/* line 13, ../../sass/default.scss */
+body {
+  font: 300 15px 'Open Sans';
+}
+
+/* line 17, ../../sass/default.scss */
+[role="main"] {
+  padding-bottom: 100px;
+}
+
+/* line 26, ../../sass/default.scss */
+.main {
+  padding: 100px 40px;
+}
+
+/* line 31, ../../sass/default.scss */
+.breadcrumbs .current {
+  font-size: 24px;
+}
+
+/* line 40, ../../sass/default.scss */
+.photo-text .text-content, .photo-text .photo, .photo-text .color-box {
+  display: inline-block;
+}
+/* line 43, ../../sass/default.scss */
+.photo-text .text-content {
+  vertical-align: top;
+}
+/* line 46, ../../sass/default.scss */
+.photo-text h5 {
+  margin: 0;
+}
+
+/* line 50, ../../sass/default.scss */
+.color-box-text {
+  width: 300px;
+  display: inline-block;
+}
+
+/* line 54, ../../sass/default.scss */
+.color-box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+}
+
+/* line 61, ../../sass/default.scss */
+ul.list-logo {
+  padding: 30px;
+}
+/* line 63, ../../sass/default.scss */
+ul.list-logo li {
+  display: inline-block;
+  margin: 0 17px;
+}
+/* line 68, ../../sass/default.scss */
+ul.list-logo .logo {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  /* line 2, ../../sass/media.scss */
+  ul.list-logo li {
+    margin: 0 35px;
+  }
+
+  /* line 5, ../../sass/media.scss */
+  .sidebar {
+    padding: 85px;
+  }
+}

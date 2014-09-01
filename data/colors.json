@@ -1,0 +1,156 @@
+{
+    "solid": {
+        "primary": [{
+            "title": "FM Magenta",
+            "description": "Pantone 226 C",
+            "html": "D0006F",
+            "class": "fm-magenta",
+            "R": 208,
+            "G": 0,
+            "B": 111,
+            "C": 15,
+            "M": 100,
+            "Y": 28,
+            "K": 1
+        }, {
+            "title": "FM Black",
+            "description": "Pantone 226 C",
+            "html": "212721",
+            "class": "fm-black",
+            "R": 33,
+            "G": 39,
+            "B": 33,
+            "C": 73,
+            "M": 61,
+            "Y": 70,
+            "K": 71
+        }, {
+            "title": "FM Gray 1",
+            "description": "Pantone 226 C",
+            "html": "f5f6f6",
+            "class": "fm-gray1",
+            "R": 245,
+            "G": 246,
+            "B": 245,
+            "C": 3,
+            "M": 1,
+            "Y": 2,
+            "K": 0
+        }, {
+            "title": "FM Gray 2",
+            "description": "Pantone 226 C",
+            "html": "eae6e6",
+            "class": "fm-gray2",
+            "R": 234,
+            "G": 230,
+            "B": 230,
+            "C": 7,
+            "M": 7,
+            "Y": 6,
+            "K": 0
+        }, {
+            "title": "FM Gray 3",
+            "description": "Pantone 226 C",
+            "html": "8a8a8a",
+            "class": "fm-gray3",
+            "R": 138,
+            "G": 138,
+            "B": 138,
+            "C": 48,
+            "M": 40,
+            "Y": 40,
+            "K": 4
+        }, {
+            "title": "FM White",
+            "description": "Pantone 226 C",
+            "html": "FFFFFF",
+            "class": "fm-white",
+            "R": 255,
+            "G": 255,
+            "B": 255,
+            "C": 0,
+            "M": 0,
+            "Y": 0,
+            "K": 0
+        } ],
+        "secondary": [{
+            "title": "FM Burnt",
+            "description": "Pantone 226 C",
+            "html": "970e48",
+            "class": "fm-magenta",
+            "R": 151,
+            "G": 14,
+            "B": 72,
+            "C": 31,
+            "M": 100,
+            "Y": 55,
+            "K": 20
+        }, {
+            "title": "FM Purple 1",
+            "description": "Pantone 226 C",
+            "html": "82459b",
+            "class": "fm-purple1",
+            "R": 208,
+            "G": 0,
+            "B": 111,
+            "C": 0,
+            "M": 100,
+            "Y": 2,
+            "K": 0
+        }, {
+            "title": "FM Purple 2",
+            "description": "Pantone 226 C",
+            "html": "503b80",
+            "class": "fm-purple2",
+            "R": 130,
+            "G": 69,
+            "B": 155,
+            "C": 58,
+            "M": 87,
+            "Y": 0,
+            "K": 0
+        }, {
+            "title": "FM Blue 1",
+            "description": "Pantone 226 C",
+            "html": "109dc0",
+            "class": "fm-blue1",
+            "R": 16,
+            "G": 157,
+            "B": 192,
+            "C": 77,
+            "M": 21,
+            "Y": 16,
+            "K": 0
+        }, {
+            "title": "FM Blue 2",
+            "description": "Pantone 226 C",
+            "html": "00567b",
+            "class": "fm-blue2",
+            "R": 0,
+            "G": 86,
+            "B": 123,
+            "C": 96,
+            "M": 64,
+            "Y": 32,
+            "K": 13
+        }]
+    },
+    "gradients": {
+        "primary": [{
+            "title": "FM Gradient 1",
+            "description": "Pantone 226 & 7641",
+            "class": "fm-gradient1"
+        }],
+        "secondary": [{
+            "title": "FM Gradient 2",
+            "description": "Pantone 7459 & 7700",
+            "class": "fm-gradient2"
+        }, {
+            "title": "FM Gradient 3",
+            "description": "Pantone 7442 & 7447",
+            "class": "fm-gradient3"
+        }]
+    }
+
+
+}

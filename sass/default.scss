@@ -1,0 +1,73 @@
+@import "compass";
+
+
+@import "pages/sidebar";
+
+@import "components/helper";
+@import "components/icons";
+@import "components/colors";
+@import "components/typography";
+
+
+
+body{
+	font: 300 15px 'Open Sans';
+}
+
+[role="main"]{
+	@extend .bg.fm-gray1;
+	padding-bottom: 100px;
+}
+
+.wrapper{
+	@extend .bg.fm-gray2;
+}
+
+.main{
+	padding: 100px 40px;
+}
+
+.breadcrumbs{
+	.current{
+		@extend .open-sans;
+		font-size: 24px;
+	}
+}
+
+
+
+.photo-text{
+	.text-content, .photo{
+		display: inline-block;
+	}
+	.text-content{
+		vertical-align: top;
+	}
+	h5{
+		margin: 0;
+	}
+}
+.color-box-text{
+	width: 300px;
+	display: inline-block;
+}
+.color-box{
+	@extend .photo;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #000;
+}
+
+ul.list-logo{
+	padding: 30px;
+	li{
+		@extend .fm-black;
+		display: inline-block;
+		margin: 0 17px;
+	}
+	.logo{
+		margin-bottom: 30px;		
+	}
+}
+
+@import "media";

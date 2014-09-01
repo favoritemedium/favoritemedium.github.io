@@ -1,0 +1,124 @@
+// @css {
+
+  /* Thin */
+  @font-face {
+      font-weight: 100;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondThin-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondThin-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondThin-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondThin-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondThin-webfont.svg#PlutoThinRegular') format('svg');
+  }
+
+  /* Extra Light */
+  @font-face {
+      font-weight: 200;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondExtraLight-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondExtraLight-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondExtraLight-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondExtraLight-webfont.svg#PlutoExtraLightRegular') format('svg');
+  }
+
+  /* Light */
+  @font-face {
+      font-weight: 300;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondLight-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondLight-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondLight-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondLight-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondLight-webfont.svg#PlutoLightRegular') format('svg');
+  }
+
+  /* Regular */
+  @font-face {
+      font-weight: normal;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondRegular-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondRegular-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondRegular-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondRegular-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondRegular-webfont.svg#PlutoRegularRegular') format('svg');
+  }
+
+  /* Medium */
+  @font-face {
+      font-weight: 500;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondMedium-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondMedium-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondMedium-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondMedium-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondMedium-webfont.svg#PlutoMediumRegular') format('svg');
+  }
+
+  /* Bold */
+  @font-face {
+      font-weight: 600;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondBold-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondBold-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondBold-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondBold-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondBold-webfont.svg#PlutoBoldRegular') format('svg');
+  }
+
+  /* Heavy */
+  @font-face {
+      font-weight: 700;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondHeavy-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondHeavy-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondHeavy-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondHeavy-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondHeavy-webfont.svg#PlutoHeavyRegular') format('svg');
+  }
+
+  /* Black */
+  @font-face {
+      font-weight: 800;
+      font-style: normal;
+      font-family: 'Pluto Condensed';
+      src: url('/assets/webfonts/PlutoCondBlack-webfont.eot');
+      src: url('/assets/webfonts/PlutoCondBlack-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoCondBlack-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoCondBlack-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoCondBlack-webfont.svg#PlutoBlackRegular') format('svg');
+  }
+
+// }
+
+.pluto-condensed{
+  font-family: 'Pluto Condensed';
+  &.thin{
+    font-weight: 100;
+  }
+  &.extra-light{
+    font-weight: 200;
+  }
+  &.light{
+    font-weight: 300;
+  }
+  &.medium{
+    font-weight: 500;
+  }
+  &.bold{
+    font-weight: 600;
+  }
+  &.heavy{
+    font-weight: 700;
+  }
+  &.black{
+    font-weight: 800;
+  }
+}

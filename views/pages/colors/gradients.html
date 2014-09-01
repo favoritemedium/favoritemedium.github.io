@@ -1,0 +1,41 @@
+<breadcrumbs parent="breadcrumbs.colors" page="'gradients'"></breadcrumbs>
+<div class="row">
+	<div class="col-md-12">
+		
+		<h4 class="space3">Primary Gradient</h4>
+		<div class="row">
+			<p class="space3 col-md-8">
+				This is our main gradation. It can be found in our logo as well as the back of our business cards. It is also used on top of photos on our website.
+			</p>
+		</div>
+
+		<ul class="list-unstyled">
+			<li ng-repeat="item in colors.gradients.primary" class="photo-text color-box-text space5">
+				<div class="color-box mr bg {{item.class}}"></div>
+				<div class="text-content">
+				<h5 class="text-upper">{{item.title}}</h5>
+				<strong>{{item.description}}</strong><br>
+				</div>
+			</li>
+		</ul>
+
+		<div class="space5"></div>
+		
+		<h4 class="space3">Secondary Gradients</h4>
+		<div class="row">
+			<p class="space3 col-md-8">
+				The secondary gradients are primarily used on top of photos in the website. We currently don’t use the gradients on their own.
+			</p>
+		</div>
+
+		<ul class="list-unstyled">
+			<li ng-repeat="item in colors.gradients.secondary" class="photo-text color-box-text space5">
+				<div class="color-box mr bg {{item.class}}"></div>
+				<div class="text-content">
+				<h5 class="text-upper">{{item.title}}</h5>
+				<strong>{{item.description}}</strong><br>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

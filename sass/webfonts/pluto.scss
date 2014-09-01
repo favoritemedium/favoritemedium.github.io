@@ -1,0 +1,124 @@
+// @css {
+
+  /* Thin */
+  @font-face {
+      font-weight: 100;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoThin-webfont.eot');
+      src: url('/assets/webfonts/PlutoThin-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoThin-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoThin-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoThin-webfont.svg#PlutoThinRegular') format('svg');
+  }
+
+  /* Extra Light */
+  @font-face {
+      font-weight: 200;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoExtraLight-webfont.eot');
+      src: url('/assets/webfonts/PlutoExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoExtraLight-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoExtraLight-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoExtraLight-webfont.svg#PlutoExtraLightRegular') format('svg');
+  }
+
+  /* Light */
+  @font-face {
+      font-weight: 300;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoLight-webfont.eot');
+      src: url('/assets/webfonts/PlutoLight-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoLight-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoLight-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoLight-webfont.svg#PlutoLightRegular') format('svg');
+  }
+
+  /* Regular */
+  @font-face {
+      font-weight: normal;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoRegular-webfont.eot');
+      src: url('/assets/webfonts/PlutoRegular-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoRegular-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoRegular-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoRegular-webfont.svg#PlutoRegularRegular') format('svg');
+  }
+
+  /* Medium */
+  @font-face {
+      font-weight: 500;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoMedium-webfont.eot');
+      src: url('/assets/webfonts/PlutoMedium-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoMedium-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoMedium-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoMedium-webfont.svg#PlutoMediumRegular') format('svg');
+  }
+
+  /* Bold */
+  @font-face {
+      font-weight: 600;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoBold-webfont.eot');
+      src: url('/assets/webfonts/PlutoBold-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoBold-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoBold-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoBold-webfont.svg#PlutoBoldRegular') format('svg');
+  }
+
+  /* Heavy */
+  @font-face {
+      font-weight: 700;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoHeavy-webfont.eot');
+      src: url('/assets/webfonts/PlutoHeavy-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoHeavy-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoHeavy-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoHeavy-webfont.svg#PlutoHeavyRegular') format('svg');
+  }
+
+  /* Black */
+  @font-face {
+      font-weight: 800;
+      font-style: normal;
+      font-family: 'Pluto';
+      src: url('/assets/webfonts/PlutoBlack-webfont.eot');
+      src: url('/assets/webfonts/PlutoBlack-webfont.eot?#iefix') format('embedded-opentype'),
+           url('/assets/webfonts/PlutoBlack-webfont.woff') format('woff'),
+           url('/assets/webfonts/PlutoBlack-webfont.ttf') format('truetype'),
+           url('/assets/webfonts/PlutoBlack-webfont.svg#PlutoBlackRegular') format('svg');
+  }
+
+// }
+
+.pluto{
+  font-family: 'Pluto';
+  &.thin{
+    font-weight: 100;
+  }
+  &.extra-light{
+    font-weight: 200;
+  }
+  &.light{
+    font-weight: 300;
+  }
+  &.medium{
+    font-weight: 500;
+  }
+  &.bold{
+    font-weight: 600;
+  }
+  &.heavy{
+    font-weight: 700;
+  }
+  &.black{
+    font-weight: 800;
+  }
+}

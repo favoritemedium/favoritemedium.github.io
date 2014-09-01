@@ -1,0 +1,36 @@
+@import 'webfonts/pluto';
+@import 'webfonts/pluto-condensed';
+@import 'webfonts/open-sans';
+@import 'webfonts/fm-analog-clock';
+
+
+
+.open-sans{
+	font-family: 'Open Sans';
+}
+
+h1,h2,h3,h4,h5{
+	@extend .pluto-condensed;
+	margin-top: 0;
+	line-height: 1em;
+}
+
+h1{ font-size: 60px;}
+h2{ font-size: 48px;}
+h3{ font-size: 30px; font-weight: normal; }
+h4{ font-size: 24px; font-weight: normal; }
+h5{ font-size: 18px; font-weight: normal; }
+
+.font-10{
+	font-size: 10px;
+}
+.font-12{
+	font-size: 12px;
+}
+.font-14{
+	font-size: 14px;
+}
+.font-16{
+	font-size: 16px;
+}
+
