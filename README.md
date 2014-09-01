@@ -1,4 +1,0 @@
-FM Styleguide
-
-bower install
-
