@@ -1,18 +1,18 @@
 .logo{
-	background-image: url(/assets/images/logos/logo-short-magenta.svg);
+	background-image: url(/assets/images/logos/fm_logo_short/fm_logo_short.svg);
 	background-size: 100%;
 	width: 110px;
 	height: 102px;
 	&.full{
-		&.black{ background-image: url(/assets/images/logos/logo-full-black.svg); }
-		&.magenta{ background-image: url(/assets/images/logos/logo-full-magenta.svg); }
-		&.white1{ background-image: url(/assets/images/logos/logo-full-white1.svg); }
-		&.white2{ background-image: url(/assets/images/logos/logo-full-white2.svg); }
+		&.fm_logo_full{ background-image: url(/assets/images/logos/fm_logo_full/fm_logo_full.svg); }
+		&.fm_logo_full_white{ background-image: url(/assets/images/logos/fm_logo_full_white/fm_logo_full_white.svg); }
+		&.fm_logo_full_bw{ background-image: url(/assets/images/logos/fm_logo_full_bw/fm_logo_full_bw.svg); }
+		&.fm_logo_full_bw_white{ background-image: url(/assets/images/logos/fm_logo_full_bw_white/fm_logo_full_bw_white.svg); }
 	}
 	&.short{
-		&.black{ background-image: url(/assets/images/logos/logo-short-black.svg); }
-		&.magenta{ background-image: url(/assets/images/logos/logo-short-magenta.svg); }
-		&.white1{ background-image: url(/assets/images/logos/logo-short-white1.svg); }
-		&.white2{ background-image: url(/assets/images/logos/logo-short-white2.svg); }
+		&.fm_logo_short{ background-image: url(/assets/images/logos/fm_logo_short/fm_logo_short.svg); }
+		&.fm_logo_short_white{ background-image: url(/assets/images/logos/fm_logo_short_white/fm_logo_short_white.svg); }
+		&.fm_logo_short_bw{ background-image: url(/assets/images/logos/fm_logo_short_bw/fm_logo_short_bw.svg); }
+		&.fm_logo_short_bw_white{ background-image: url(/assets/images/logos/fm_logo_short_bw_white/fm_logo_short_bw_white.svg); }
 	}
 }

@@ -26,8 +26,8 @@ angular.module('fmApp')
 							title: 'Headers',
 							path: '/typography/headers'
 						}, {
-							title: 'SubHeaders',
-							path: '/typography/subheaders'
+							title: 'Copy',
+							path: '/typography/copy'
 						}]
 					}, {
 						title: 'Color',

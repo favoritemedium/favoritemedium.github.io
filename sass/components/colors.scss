@@ -3,9 +3,9 @@
 }
 
 .fm-magenta{
-	color: #D0006F;
+	color: #E20078;
 	&.bg{
-		background-color: #D0006F;		
+		background-color: #E20078;		
 	}
 }
 
@@ -17,23 +17,23 @@
 }
 
 .fm-gray1{
-	color: #f5f6f6;
+	color: #F5F6F6;
 	&.bg{
-		background-color: #f5f6f6;		
+		background-color: #F5F6F6;		
 	}
 }
 
 .fm-gray2{
-	color: #eae6e6;
+	color: #EAE6E6;
 	&.bg{
-		background-color: #eae6e6;		
+		background-color: #EAE6E6;		
 	}
 }
 
 .fm-gray3{
-	color: #8a8a8a;
+	color: #8A8A8A;
 	&.bg{
-		background-color: #8a8a8a;		
+		background-color: #8A8A8A;		
 	}
 }
 
@@ -45,47 +45,47 @@
 }
 
 .fm-burnt{
-	color: #970e48;
+	color: #A92346;
 	&.bg{
-		background-color: #970e48;		
+		background-color: #A92346;		
 	}
 }
 
 .fm-purple1{
-	color: #82459b;
+	color: #82459B;
 	&.bg{
-		background-color: #82459b;		
+		background-color: #82459B;		
 	}
 }
 
 .fm-purple2{
-	color: #503b80;
+	color: #503B80;
 	&.bg{
-		background-color: #503b80;		
+		background-color: #503B80;		
 	}
 }
 
 .fm-blue1{
-	color: #109dc0;
+	color: #109DC0;
 	&.bg{
-		background-color: #109dc0;		
+		background-color: #109DC0;		
 	}
 }
 
 .fm-blue2{
-	color: #00567b;
+	color: #00567B;
 	&.bg{
-		background-color: #00567b;		
+		background-color: #00567B;		
 	}
 }
 
 
 .fm-gradient1{
-	@include background-image(linear-gradient(#ec0088, #9a0d4b));
+	@include background-image(linear-gradient(#E20078, #A92346));
 }
 .fm-gradient2{
-	@include background-image(linear-gradient(#109dbf, #01587b));
+	@include background-image(linear-gradient(#109DC0, #00567B));
 }
 .fm-gradient3{
-	@include background-image(linear-gradient(#7f4499, #533c82));
+	@include background-image(linear-gradient(#82459B, #503B80));
 }

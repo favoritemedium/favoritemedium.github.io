@@ -27,8 +27,8 @@ angular.module('fmApp', [
           templateUrl: 'views/pages/typography/headers.html',
           controller: 'TypographyCtrl',
         })
-        .when('/typography/subheaders', {
-          templateUrl: 'views/pages/typography/subheaders.html',
+        .when('/typography/copy', {
+          templateUrl: 'views/pages/typography/copy.html',
           controller: 'TypographyCtrl',
         })
 
@@ -85,7 +85,7 @@ angular.module('fmApp', [
           title: 'Typography',
           fonts: 'Our Fonts',
           headers: 'Headers',
-          subheaders: 'Sub Headers'
+          copy: 'Copy'
         },
         colors: {
           title: 'Colors',

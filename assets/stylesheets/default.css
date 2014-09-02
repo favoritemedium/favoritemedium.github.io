@@ -3,9 +3,9 @@
 .sidebar {
   font-size: 16px;
   font-weight: 400;
-  padding: 50px;
+  padding: 70px;
+  padding-left: 90px;
   padding-top: 100px;
-  padding-right: 20px;
 }
 /* line 9, ../../sass/pages/sidebar.scss */
 .sidebar .logo {
@@ -100,42 +100,42 @@
 
 /* line 1, ../../sass/components/icons.scss */
 .logo {
-  background-image: url(/assets/images/logos/logo-short-magenta.svg);
+  background-image: url(/assets/images/logos/fm_logo_short/fm_logo_short.svg);
   background-size: 100%;
   width: 110px;
   height: 102px;
 }
 /* line 7, ../../sass/components/icons.scss */
-.logo.full.black {
-  background-image: url(/assets/images/logos/logo-full-black.svg);
+.logo.full.fm_logo_full {
+  background-image: url(/assets/images/logos/fm_logo_full/fm_logo_full.svg);
 }
 /* line 8, ../../sass/components/icons.scss */
-.logo.full.magenta {
-  background-image: url(/assets/images/logos/logo-full-magenta.svg);
+.logo.full.fm_logo_full_white {
+  background-image: url(/assets/images/logos/fm_logo_full_white/fm_logo_full_white.svg);
 }
 /* line 9, ../../sass/components/icons.scss */
-.logo.full.white1 {
-  background-image: url(/assets/images/logos/logo-full-white1.svg);
+.logo.full.fm_logo_full_bw {
+  background-image: url(/assets/images/logos/fm_logo_full_bw/fm_logo_full_bw.svg);
 }
 /* line 10, ../../sass/components/icons.scss */
-.logo.full.white2 {
-  background-image: url(/assets/images/logos/logo-full-white2.svg);
+.logo.full.fm_logo_full_bw_white {
+  background-image: url(/assets/images/logos/fm_logo_full_bw_white/fm_logo_full_bw_white.svg);
 }
 /* line 13, ../../sass/components/icons.scss */
-.logo.short.black {
-  background-image: url(/assets/images/logos/logo-short-black.svg);
+.logo.short.fm_logo_short {
+  background-image: url(/assets/images/logos/fm_logo_short/fm_logo_short.svg);
 }
 /* line 14, ../../sass/components/icons.scss */
-.logo.short.magenta {
-  background-image: url(/assets/images/logos/logo-short-magenta.svg);
+.logo.short.fm_logo_short_white {
+  background-image: url(/assets/images/logos/fm_logo_short_white/fm_logo_short_white.svg);
 }
 /* line 15, ../../sass/components/icons.scss */
-.logo.short.white1 {
-  background-image: url(/assets/images/logos/logo-short-white1.svg);
+.logo.short.fm_logo_short_bw {
+  background-image: url(/assets/images/logos/fm_logo_short_bw/fm_logo_short_bw.svg);
 }
 /* line 16, ../../sass/components/icons.scss */
-.logo.short.white2 {
-  background-image: url(/assets/images/logos/logo-short-white2.svg);
+.logo.short.fm_logo_short_bw_white {
+  background-image: url(/assets/images/logos/fm_logo_short_bw_white/fm_logo_short_bw_white.svg);
 }
 
 /* line 1, ../../sass/components/colors.scss */
@@ -145,11 +145,11 @@
 
 /* line 5, ../../sass/components/colors.scss */
 .fm-magenta, .sidebar .active {
-  color: #D0006F;
+  color: #E20078;
 }
 /* line 7, ../../sass/components/colors.scss */
 .fm-magenta.bg, .sidebar .bg.active {
-  background-color: #D0006F;
+  background-color: #E20078;
 }
 
 /* line 12, ../../sass/components/colors.scss */
@@ -163,29 +163,29 @@
 
 /* line 19, ../../sass/components/colors.scss */
 .fm-gray1 {
-  color: #f5f6f6;
+  color: #F5F6F6;
 }
 /* line 21, ../../sass/components/colors.scss */
 .fm-gray1.bg, [role="main"] {
-  background-color: #f5f6f6;
+  background-color: #F5F6F6;
 }
 
 /* line 26, ../../sass/components/colors.scss */
 .fm-gray2 {
-  color: #eae6e6;
+  color: #EAE6E6;
 }
 /* line 28, ../../sass/components/colors.scss */
 .fm-gray2.bg, .wrapper {
-  background-color: #eae6e6;
+  background-color: #EAE6E6;
 }
 
 /* line 33, ../../sass/components/colors.scss */
 .fm-gray3 {
-  color: #8a8a8a;
+  color: #8A8A8A;
 }
 /* line 35, ../../sass/components/colors.scss */
 .fm-gray3.bg {
-  background-color: #8a8a8a;
+  background-color: #8A8A8A;
 }
 
 /* line 40, ../../sass/components/colors.scss */
@@ -199,74 +199,74 @@
 
 /* line 47, ../../sass/components/colors.scss */
 .fm-burnt {
-  color: #970e48;
+  color: #A92346;
 }
 /* line 49, ../../sass/components/colors.scss */
 .fm-burnt.bg {
-  background-color: #970e48;
+  background-color: #A92346;
 }
 
 /* line 54, ../../sass/components/colors.scss */
 .fm-purple1 {
-  color: #82459b;
+  color: #82459B;
 }
 /* line 56, ../../sass/components/colors.scss */
 .fm-purple1.bg {
-  background-color: #82459b;
+  background-color: #82459B;
 }
 
 /* line 61, ../../sass/components/colors.scss */
 .fm-purple2 {
-  color: #503b80;
+  color: #503B80;
 }
 /* line 63, ../../sass/components/colors.scss */
 .fm-purple2.bg {
-  background-color: #503b80;
+  background-color: #503B80;
 }
 
 /* line 68, ../../sass/components/colors.scss */
 .fm-blue1 {
-  color: #109dc0;
+  color: #109DC0;
 }
 /* line 70, ../../sass/components/colors.scss */
 .fm-blue1.bg {
-  background-color: #109dc0;
+  background-color: #109DC0;
 }
 
 /* line 75, ../../sass/components/colors.scss */
 .fm-blue2 {
-  color: #00567b;
+  color: #00567B;
 }
 /* line 77, ../../sass/components/colors.scss */
 .fm-blue2.bg {
-  background-color: #00567b;
+  background-color: #00567B;
 }
 
 /* line 83, ../../sass/components/colors.scss */
 .fm-gradient1 {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec0088), color-stop(100%, #9a0d4b));
-  background-image: -webkit-linear-gradient(#ec0088, #9a0d4b);
-  background-image: -moz-linear-gradient(#ec0088, #9a0d4b);
-  background-image: -o-linear-gradient(#ec0088, #9a0d4b);
-  background-image: linear-gradient(#ec0088, #9a0d4b);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e20078), color-stop(100%, #a92346));
+  background-image: -webkit-linear-gradient(#e20078, #a92346);
+  background-image: -moz-linear-gradient(#e20078, #a92346);
+  background-image: -o-linear-gradient(#e20078, #a92346);
+  background-image: linear-gradient(#e20078, #a92346);
 }
 
 /* line 86, ../../sass/components/colors.scss */
 .fm-gradient2 {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #109dbf), color-stop(100%, #01587b));
-  background-image: -webkit-linear-gradient(#109dbf, #01587b);
-  background-image: -moz-linear-gradient(#109dbf, #01587b);
-  background-image: -o-linear-gradient(#109dbf, #01587b);
-  background-image: linear-gradient(#109dbf, #01587b);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #109dc0), color-stop(100%, #00567b));
+  background-image: -webkit-linear-gradient(#109dc0, #00567b);
+  background-image: -moz-linear-gradient(#109dc0, #00567b);
+  background-image: -o-linear-gradient(#109dc0, #00567b);
+  background-image: linear-gradient(#109dc0, #00567b);
 }
 
 /* line 89, ../../sass/components/colors.scss */
 .fm-gradient3 {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7f4499), color-stop(100%, #533c82));
-  background-image: -webkit-linear-gradient(#7f4499, #533c82);
-  background-image: -moz-linear-gradient(#7f4499, #533c82);
-  background-image: -o-linear-gradient(#7f4499, #533c82);
-  background-image: linear-gradient(#7f4499, #533c82);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #82459b), color-stop(100%, #503b80));
+  background-image: -webkit-linear-gradient(#82459b, #503b80);
+  background-image: -moz-linear-gradient(#82459b, #503b80);
+  background-image: -o-linear-gradient(#82459b, #503b80);
+  background-image: linear-gradient(#82459b, #503b80);
 }
 
 /* Thin */
@@ -620,8 +620,9 @@ ul.list-logo {
 ul.list-logo li {
   display: inline-block;
   margin: 0 17px;
+  min-width: 130px;
 }
-/* line 68, ../../sass/default.scss */
+/* line 69, ../../sass/default.scss */
 ul.list-logo .logo {
   margin-bottom: 30px;
 }
@@ -630,10 +631,5 @@ ul.list-logo .logo {
   /* line 2, ../../sass/media.scss */
   ul.list-logo li {
     margin: 0 35px;
-  }
-
-  /* line 5, ../../sass/media.scss */
-  .sidebar {
-    padding: 85px;
   }
 }
