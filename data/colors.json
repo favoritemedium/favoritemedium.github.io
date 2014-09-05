@@ -7,9 +7,9 @@
             "R": 226,
             "G": 0,
             "B": 120,
-            "C": 5,
-            "M": 100,
-            "Y": 19,
+            "C": 2.5,
+            "M": 99.6,
+            "Y": 7.7,
             "K": 0
         }, {
             "title": "FM Black",
@@ -136,16 +136,16 @@
     "gradients": {
         "primary": [{
             "title": "FM Gradient 1",
-            "description": "Pantone 226 & 7641",
+            "description": "#A92346 & #e00d78",
             "class": "fm-gradient1"
         }],
         "secondary": [{
             "title": "FM Gradient 2",
-            "description": "Pantone 7459 & 7700",
+            "description": "#109DC0 & #00567B",
             "class": "fm-gradient2"
         }, {
             "title": "FM Gradient 3",
-            "description": "Pantone 7442 & 7447",
+            "description": "#82459B & #503B80",
             "class": "fm-gradient3"
         }]
     }

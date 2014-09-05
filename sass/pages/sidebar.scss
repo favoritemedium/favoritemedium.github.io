@@ -2,12 +2,13 @@
 	@extend .pluto-condensed;
 	font-size: 16px;
 	font-weight: 400;
-	padding: 70px;
-	padding-left: 90px;
-	padding-top: 100px;
+	// padding: 70px;
+	// padding-left: 90px;
+	// padding-top: 100px;
 
-	.logo{
-		margin-bottom: 125px;
+	.logo-container{
+		margin: 125px auto;
+		width: 150px;
 	}
 
 	ul{
@@ -17,8 +18,9 @@
 		}
 	}
 	& > ul {
-		margin: 0;
+		margin: 0 auto;
 		padding: 0;
+		width: 150px;
 		li{
 		}
 		a{

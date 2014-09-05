@@ -4,6 +4,7 @@ angular.module('fmApp', [
   'ngRoute'
 ])
   .constant('version', '2')
+  .constant('modified', '5/9/2014' )
   .config([
     '$routeProvider',
     '$locationProvider',
@@ -74,8 +75,10 @@ angular.module('fmApp', [
   .run([
     '$rootScope',
     '$location',
-    function($rootScope, $location, helpers, state, country) {
+    'modified',
+    function($rootScope, $location, modified) {
       //startup
+      $rootScope.modified = modified;
       $rootScope.breadcrumbs = {
         logo: {
           title: 'Logos',

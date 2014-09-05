@@ -33,7 +33,20 @@ body{
 		font-size: 24px;
 	}
 }
+hr.fat{
+	border-top-width: 3px;
+	border-color: #d7cfcf;
+}
+.contextual{
+	padding: 40px;
+	color: #000;
+}
 
+.pull-quote1{
+	@extend .pluto-condensed;
+	color: #E20078;
+	font-size: 36px;
+}
 
 
 .photo-text{

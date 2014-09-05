@@ -1,34 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 /* line 1, ../../sass/pages/sidebar.scss */
 .sidebar {
   font-size: 16px;
   font-weight: 400;
-  padding: 70px;
-  padding-left: 90px;
-  padding-top: 100px;
 }
 /* line 9, ../../sass/pages/sidebar.scss */
-.sidebar .logo {
-  margin-bottom: 125px;
+.sidebar .logo-container {
+  margin: 125px auto;
+  width: 150px;
 }
-/* line 13, ../../sass/pages/sidebar.scss */
+/* line 14, ../../sass/pages/sidebar.scss */
 .sidebar ul {
   list-style: none;
 }
-/* line 15, ../../sass/pages/sidebar.scss */
+/* line 16, ../../sass/pages/sidebar.scss */
 .sidebar ul li {
   margin-top: 12px;
 }
-/* line 19, ../../sass/pages/sidebar.scss */
+/* line 20, ../../sass/pages/sidebar.scss */
 .sidebar > ul {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 150px;
 }
-/* line 24, ../../sass/pages/sidebar.scss */
+/* line 26, ../../sass/pages/sidebar.scss */
 .sidebar > ul a {
   color: #000;
 }
-/* line 27, ../../sass/pages/sidebar.scss */
+/* line 29, ../../sass/pages/sidebar.scss */
 .sidebar > ul li > ul {
   text-transform: none;
 }
@@ -96,6 +96,11 @@
 /* line 20, ../../sass/components/helper.scss */
 .mr {
   margin-right: 15px;
+}
+
+/* line 24, ../../sass/components/helper.scss */
+.no-margin {
+  margin: 0;
 }
 
 /* line 1, ../../sass/components/icons.scss */
@@ -447,35 +452,35 @@
 }
 
 /* line 101, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed, .sidebar, h1, h2, h3, h4, h5 {
+.pluto-condensed, .sidebar, h1, h2, h3, h4, h5, .pull-quote1 {
   font-family: 'Pluto Condensed';
 }
 /* line 103, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed.thin, .thin.sidebar, h1.thin, h2.thin, h3.thin, h4.thin, h5.thin {
+.pluto-condensed.thin, .thin.sidebar, h1.thin, h2.thin, h3.thin, h4.thin, h5.thin, .thin.pull-quote1 {
   font-weight: 100;
 }
 /* line 106, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed.extra-light, .extra-light.sidebar, h1.extra-light, h2.extra-light, h3.extra-light, h4.extra-light, h5.extra-light {
+.pluto-condensed.extra-light, .extra-light.sidebar, h1.extra-light, h2.extra-light, h3.extra-light, h4.extra-light, h5.extra-light, .extra-light.pull-quote1 {
   font-weight: 200;
 }
 /* line 109, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed.light, .light.sidebar, h1.light, h2.light, h3.light, h4.light, h5.light {
+.pluto-condensed.light, .light.sidebar, h1.light, h2.light, h3.light, h4.light, h5.light, .light.pull-quote1 {
   font-weight: 300;
 }
 /* line 112, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed.medium, .medium.sidebar, h1.medium, h2.medium, h3.medium, h4.medium, h5.medium {
+.pluto-condensed.medium, .medium.sidebar, h1.medium, h2.medium, h3.medium, h4.medium, h5.medium, .medium.pull-quote1 {
   font-weight: 500;
 }
 /* line 115, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed.bold, .bold.sidebar, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold {
+.pluto-condensed.bold, .bold.sidebar, h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, .bold.pull-quote1 {
   font-weight: 600;
 }
 /* line 118, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed.heavy, .heavy.sidebar, h1.heavy, h2.heavy, h3.heavy, h4.heavy, h5.heavy {
+.pluto-condensed.heavy, .heavy.sidebar, h1.heavy, h2.heavy, h3.heavy, h4.heavy, h5.heavy, .heavy.pull-quote1 {
   font-weight: 700;
 }
 /* line 121, ../../sass/webfonts/pluto-condensed.scss */
-.pluto-condensed.black, .black.sidebar, h1.black, h2.black, h3.black, h4.black, h5.black {
+.pluto-condensed.black, .black.sidebar, h1.black, h2.black, h3.black, h4.black, h5.black, .black.pull-quote1 {
   font-weight: 800;
 }
 
@@ -500,6 +505,27 @@
   font-weight: 700;
 }
 
+/* line 3, ../../sass/webfonts/noto-sans.scss */
+.noto-sans {
+  font-family: 'Noto Sans';
+}
+/* line 5, ../../sass/webfonts/noto-sans.scss */
+.noto-sans.light {
+  font-weight: 300;
+}
+/* line 8, ../../sass/webfonts/noto-sans.scss */
+.noto-sans.semi-bold {
+  font-weight: 600;
+}
+/* line 11, ../../sass/webfonts/noto-sans.scss */
+.noto-sans.bold {
+  font-weight: 700;
+}
+/* line 14, ../../sass/webfonts/noto-sans.scss */
+.noto-sans.extra-bold {
+  font-weight: 700;
+}
+
 @font-face {
   font-family: 'FM-Analog-Clock';
   src: url("webfonts/fm-analog-clock-h-webfont.otf");
@@ -507,61 +533,61 @@
   font-style: normal;
 }
 
-/* line 8, ../../sass/components/typography.scss */
+/* line 9, ../../sass/components/typography.scss */
 .open-sans, .breadcrumbs .current {
   font-family: 'Open Sans';
 }
 
-/* line 12, ../../sass/components/typography.scss */
+/* line 13, ../../sass/components/typography.scss */
 h1, h2, h3, h4, h5 {
   margin-top: 0;
   line-height: 1em;
 }
 
-/* line 18, ../../sass/components/typography.scss */
+/* line 19, ../../sass/components/typography.scss */
 h1 {
   font-size: 60px;
 }
 
-/* line 19, ../../sass/components/typography.scss */
+/* line 20, ../../sass/components/typography.scss */
 h2 {
   font-size: 48px;
 }
 
-/* line 20, ../../sass/components/typography.scss */
+/* line 21, ../../sass/components/typography.scss */
 h3 {
   font-size: 30px;
   font-weight: normal;
 }
 
-/* line 21, ../../sass/components/typography.scss */
+/* line 22, ../../sass/components/typography.scss */
 h4 {
   font-size: 24px;
   font-weight: normal;
 }
 
-/* line 22, ../../sass/components/typography.scss */
+/* line 23, ../../sass/components/typography.scss */
 h5 {
   font-size: 18px;
   font-weight: normal;
 }
 
-/* line 24, ../../sass/components/typography.scss */
+/* line 25, ../../sass/components/typography.scss */
 .font-10 {
   font-size: 10px;
 }
 
-/* line 27, ../../sass/components/typography.scss */
+/* line 28, ../../sass/components/typography.scss */
 .font-12 {
   font-size: 12px;
 }
 
-/* line 30, ../../sass/components/typography.scss */
+/* line 31, ../../sass/components/typography.scss */
 .font-14 {
   font-size: 14px;
 }
 
-/* line 33, ../../sass/components/typography.scss */
+/* line 34, ../../sass/components/typography.scss */
 .font-16 {
   font-size: 16px;
 }
@@ -586,43 +612,61 @@ body {
   font-size: 24px;
 }
 
+/* line 36, ../../sass/default.scss */
+hr.fat {
+  border-top-width: 3px;
+  border-color: #d7cfcf;
+}
+
 /* line 40, ../../sass/default.scss */
+.contextual {
+  padding: 40px;
+  color: #000;
+}
+
+/* line 45, ../../sass/default.scss */
+.pull-quote1 {
+  color: #E20078;
+  font-size: 36px;
+}
+
+/* line 53, ../../sass/default.scss */
 .photo-text .text-content, .photo-text .photo, .photo-text .color-box {
   display: inline-block;
 }
-/* line 43, ../../sass/default.scss */
+/* line 56, ../../sass/default.scss */
 .photo-text .text-content {
   vertical-align: top;
 }
-/* line 46, ../../sass/default.scss */
+/* line 59, ../../sass/default.scss */
 .photo-text h5 {
   margin: 0;
 }
 
-/* line 50, ../../sass/default.scss */
+/* line 63, ../../sass/default.scss */
 .color-box-text {
   width: 300px;
   display: inline-block;
 }
 
-/* line 54, ../../sass/default.scss */
+/* line 67, ../../sass/default.scss */
 .color-box {
   width: 100px;
   height: 100px;
   border: 2px solid #000;
 }
 
-/* line 61, ../../sass/default.scss */
+/* line 74, ../../sass/default.scss */
 ul.list-logo {
   padding: 30px;
 }
-/* line 63, ../../sass/default.scss */
+/* line 76, ../../sass/default.scss */
 ul.list-logo li {
   display: inline-block;
   margin: 0 17px;
   min-width: 130px;
 }
-/* line 69, ../../sass/default.scss */
+/* line 82, ../../sass/default.scss */
 ul.list-logo .logo {
   margin-bottom: 30px;
 }
