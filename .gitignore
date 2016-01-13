@@ -1,1 +1,6 @@
-xxbower_components/*
+node_modules
+.tmp
+.sass-cache
+bower_components
+dist/*
+*.swp

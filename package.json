@@ -1,0 +1,29 @@
+{
+  "name": "fm-styleguide",
+  "version": "1.0.0",
+  "description": "favoritemedium.github.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favoritemedium/fm-styleguide.git"
+  },
+  "keywords": [
+    "fm",
+    "styleguide"
+  ],
+  "author": "Joel Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/favoritemedium/fm-styleguide/issues"
+  },
+  "homepage": "https://github.com/favoritemedium/fm-styleguide#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-connect": "^0.11.2"
+  }
+}
