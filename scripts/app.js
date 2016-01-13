@@ -3,8 +3,8 @@
 angular.module('fmApp', [
   'ngRoute'
 ])
-  .constant('version', '2')
-  .constant('modified', '5/9/2014' )
+  .constant('version', '2.1')
+  .constant('modified', '13/01/2016' )
   .config([
     '$routeProvider',
     '$locationProvider',
