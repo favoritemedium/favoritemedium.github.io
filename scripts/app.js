@@ -41,6 +41,10 @@ angular.module('fmApp', [
           templateUrl: 'views/pages/colors/gradients.html',
           controller: 'ColorCtrl',
         })
+        .when('/collateral/namecards', {
+          templateUrl: 'views/pages/collateral/namecards.html',
+          controller: 'CollateralCtrl',
+        })
 
         .when('/forms/buttons', {
           templateUrl: 'views/pages/forms/buttons.html',
@@ -94,6 +98,10 @@ angular.module('fmApp', [
           title: 'Colors',
           solid: 'Solid',
           gradients: 'Gradients'
+        },
+        collateral: {
+        	title: 'Collateral',
+        	namecards: 'Namecards'
         }
 
       }

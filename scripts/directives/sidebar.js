@@ -39,6 +39,13 @@ angular.module('fmApp')
 							title: 'Gradients',
 							path: '/colors/gradients'
 						}]
+					}, {
+						title: 'Collateral',
+						path: '/collateral/namecards',
+						submenu: [{
+							title: 'Name Cards',
+							path: '/collateral/namecards'
+						}]
 					}
 					/*
 					, {
